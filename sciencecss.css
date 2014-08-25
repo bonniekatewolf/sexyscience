@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,td,th {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+	color:inherit;
+}
+a:active {
+    text-decoration: none;
+	color:inherit;
+}
+a:hover {
+	color:inherit;
+}
+a:visited {
+	color:inherit
+}
+
+.page {
+	text-align:center;
+}
+
+.header {
+	padding:5px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.button {
+	background-color:red;
+	color: white;
+	padding: 4px;
+	display: inline-block;
+	margin: 4px;
+}
+
+.button:hover {
+	background-color:white;
+	color: red;
+	padding: 3px;
+	border: 1px solid red;
+	display: inline-block;
+	margin: 4px;
+}
+
+.active {
+	background-color:white;
+	color: red;
+	padding: 3px;
+	border: 1px solid red;
+	display: inline-block;
+	margin: 4px;
+}
+
+.content {
+	padding:5px;
+	margin-top:20px;
+}
+
+.words {
+	margin:auto;
+	width: 500px;
+	margin-top:20px;
+}
+
+.choice {
+	display:inline-block;
+	padding:40px;
+	padding-top:0px;
+	font-size:14px;
+	font-weight:100;
+}
+
+.lipstick {
+	background-image: url("images/lipstick-1.jpg");
+	width:389px;
+	height:486px;
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+.lipstick:hover {
+	background-image: url("images/lipstick-2.jpg");
+	background-repeat:no-repeat;
+}
