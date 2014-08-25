@@ -26,6 +26,15 @@ a:visited {
 	text-align: center;
 }
 
+#menu {
+	width: 400px;
+
+}
+
+.float {
+	float: left;
+}
+
 .header {
 	padding: 5px;
 	margin-bottom: 20px;
@@ -36,8 +45,8 @@ a:visited {
 	background-color: red;
 	color: white;
 	padding: 4px;
-	display: inline-block;
 	margin: 4px;
+	display: inline-block;
 }
 
 .button:hover {
@@ -45,7 +54,6 @@ a:visited {
 	color: red;
 	padding: 3px;
 	border: 1px solid red;
-	display: inline-block;
 	margin: 4px;
 }
 
@@ -54,7 +62,6 @@ a:visited {
 	color: red;
 	padding: 3px;
 	border: 1px solid red;
-	display: inline-block;
 	margin: 4px;
 }
 
