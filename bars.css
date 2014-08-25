@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.redbar {
+	width: 20px;
+	background-color:#FF0000;
+}
+
+.redbar.hide {
+	display: none;
+}
+
+.bottom {
+	height: 1px;
+	width:20px;
+	margin-top:99px;
+}
+
+.top {
+	height: 100px;
+	width:20px;
+}
