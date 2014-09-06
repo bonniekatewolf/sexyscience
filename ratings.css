@@ -15,3 +15,7 @@
 .rating.red {
 	background-color:#FF0000;
 }
+
+.hide{
+	display: none;
+}
