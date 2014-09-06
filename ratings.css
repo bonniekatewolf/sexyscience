@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	word-spacing: 2px;
+}
+
+.rating {
+	display: inline-block;
+	width: 13px;
+	height: 70px;
+	background-color:#ffa1a1;
+}
+
+.rating.red {
+	background-color:#FF0000;
+}

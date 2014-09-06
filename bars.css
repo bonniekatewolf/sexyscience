@@ -17,6 +17,29 @@
 	left:30px;
 }
 
+.redbar.action {
+	left:calc(66px + 133px*0);
+}
+
+.redbar.animated {
+	left:calc(66px + 133px*1);
+}
+
+.redbar.comedy {
+	left:calc(66px + 133px*2);
+	background-color:#66cbff;
+}
+
+.redbar.horror {
+	left:calc(66px + 133px*3);
+	background-color:#66cbff;
+}
+
+.redbar.romance {
+	left:calc(66px + 133px*4);
+}
+
+
 .redbar.hide {
 	display: none;
 }
