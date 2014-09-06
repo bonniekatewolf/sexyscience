@@ -13,6 +13,10 @@
 	left:0;
 }
 
+.redbar.right {
+	left:30px;
+}
+
 .redbar.hide {
 	display: none;
 }
