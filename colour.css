@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.colour {
+	background-image: url("images/colour-black.jpg");
+	width: 390px;
+	height: 606px;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.blue:hover{
+	background-image: url("images/colour-blue.jpg");
+	background-repeat: no-repeat;	
+}
+
+.green:hover{
+	background-image: url("images/colour-green.jpg");	
+	background-repeat: no-repeat;	
+}
+
+.red:hover{
+	background-image: url("images/colour-red.jpg");	
+	background-repeat: no-repeat;	
+}
+
+.white:hover{
+	background-image: url("images/colour-white.jpg");
+	background-repeat: no-repeat;		
+}
