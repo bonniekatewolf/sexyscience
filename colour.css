@@ -10,22 +10,28 @@
 	margin-top: 10px;
 }
 
-.blue{
+.dress.blue{
 	background-image: url("images/colour-blue.jpg");
 	background-repeat: no-repeat;	
 }
 
-.green{
+.dress.green{
 	background-image: url("images/colour-green.jpg");	
 	background-repeat: no-repeat;	
 }
 
-.red{
+.dress.red{
 	background-image: url("images/colour-red.jpg");	
 	background-repeat: no-repeat;	
 }
 
-.white{
+.dress.white{
 	background-image: url("images/colour-white.jpg");
 	background-repeat: no-repeat;		
+}
+
+.colourchoice{
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 100;
 }
