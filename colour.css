@@ -10,22 +10,22 @@
 	margin-top: 10px;
 }
 
-.blue:hover{
+.blue{
 	background-image: url("images/colour-blue.jpg");
 	background-repeat: no-repeat;	
 }
 
-.green:hover{
+.green{
 	background-image: url("images/colour-green.jpg");	
 	background-repeat: no-repeat;	
 }
 
-.red:hover{
+.red{
 	background-image: url("images/colour-red.jpg");	
 	background-repeat: no-repeat;	
 }
 
-.white:hover{
+.white{
 	background-image: url("images/colour-white.jpg");
 	background-repeat: no-repeat;		
 }
