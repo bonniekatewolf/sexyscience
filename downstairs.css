@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.lipstick {
+	background-image: url("images/lipstick-1.jpg");
+	width: 389px;
+	height: 486px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.lipstick.lips{
+	background-image: url("images/lipstick-2.jpg");
+	background-repeat: no-repeat;	
+}
+
+.explanationlips.hide {
+	display: none;
+}
+
+.explanationlips {
+	width: 400px;
+	font-size: 12px;
+	font-weight: 100;
+	display: inline-block;
+}
+
+
+

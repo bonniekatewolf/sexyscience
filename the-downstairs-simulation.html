@@ -1,17 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>sexy science</title>
 
 		<link rel="stylesheet" href="sciencecss.css"/>
+		<link rel="stylesheet" href="downstairs.css"/>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 		<script src="mustache.js"></script>
-</head>
+	</head>
 
-<body id="downstairs" onload="MM_preloadImages('images/lipstick-2.jpg')">
+	<body id="downstairs">
 
 		<div class='float'>
 			<div id="menu">
@@ -20,21 +21,31 @@
 		</div>
 
 		<div class='float'>
-			<div class="page">
 
-				<div class="content">
-    Mouse over me to find out what makes a heart beat faster.
-  </div>
-    
-    <div class="content">
-		<div class="lipstick"> </div>
-    </div>
+			<div class="page" id="page">
+				<div style="display: inline-block; vertical-align: top;">
+					<div class="content" id="one">
+						Mouse over me to find out what makes a heart beat faster.
+					</div>
 
-</div>
+					<div class="content" id="two">
+
+						<div class="lipstick lips image" id="image">
+							&nbsp;
+						</div>
+
+					</div>
+				</div>
+
+				<div id="explanation" class="explanationlips hide" style="margin-top:10px;">
+					veohn ape uirhao'er ifje'rog jmjse' origj sr'oigjsr'oig jsr'oigbjrst'oibhor'tij f'oirt veohn apeui rhao'eri fje'rogjmjse'origj sr'oigjsr'oig jsr'oigbjrst'oibhor'tij f'oirt
+				</div>
+			</div>
 
 		</div>
 
 		<script src='menu.js'></script>
+		<script src='downstairs.js'></script>
 
-</body>
+	</body>
 </html>

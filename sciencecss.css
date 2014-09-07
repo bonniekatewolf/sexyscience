@@ -24,6 +24,8 @@ a:visited {
 
 .page {
 	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
 }
 
 #menu {
@@ -96,17 +98,4 @@ a:visited {
 	padding-top: 0px;
 	font-size: 12px;
 	font-weight: 100;
-}
-
-.lipstick {
-	background-image: url("images/lipstick-1.jpg");
-	width: 389px;
-	height: 486px;
-	background-repeat: no-repeat;
-	margin: auto;
-}
-
-.lipstick:hover {
-	background-image: url("images/lipstick-2.jpg");
-	background-repeat: no-repeat;
 }
