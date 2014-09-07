@@ -28,4 +28,32 @@ $(function() {
 		$('.dress').removeClass('white');
 	});
 
+});
+
+$(function() {
+
+	$('.blue').click(function() {
+		$('.dress').addClass('blue');
+		$('.mouseover').unbind();
+	});
+
+	$('.green').click(function() {
+		$('.dress').addClass('green');
+		$('.mouseover').unbind();
+	});
+
+	$('.red').click(function() {
+		$('.dress').addClass('red');
+		$('.mouseover').unbind();
+	});
+
+	$('.white').click(function() {
+		$('.dress').addClass('white');
+		$('.mouseover').unbind();
+	});
+	
+	$('.mouseover').click(function() {
+		$('.explanation').removeClass('hide');
+	});
+
 }); 

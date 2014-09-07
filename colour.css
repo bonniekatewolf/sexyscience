@@ -3,7 +3,7 @@
 
 .colour {
 	background-image: url("images/colour-black.jpg");
-	width: 390px;
+	width: 320px;
 	height: 606px;
 	background-repeat: no-repeat;
 	margin: auto;
@@ -30,8 +30,17 @@
 	background-repeat: no-repeat;		
 }
 
+.options{
+	width: 300px;
+	margin: auto;
+}
+
 .colourchoice{
 	padding: 15px;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 100;
+}
+
+.hide {
+	display: none;
 }
